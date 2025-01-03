@@ -1,0 +1,195 @@
+.TenantsAndLandloard-container {
+    height: 110vh;
+    color: black;
+    padding: 3rem 7rem;
+
+}
+
+.TenantsAndLandloard-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.TenantsAndLandloard-content .row-1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    /* background-color: #a6adc5; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.togglePage {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: -40px;
+}
+
+.TenantsAndLandloard-content .row-2 {
+    display: flex;
+    flex-direction: row;
+    /* background-color: pink; */
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    position: relative;
+}
+
+.image img {
+    width: 100%;
+    max-width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.Card_overlap {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    top: 3rem;
+    left: -4.5rem;
+    border-radius: 8px;
+    padding: 17px 16px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    /* Adds the shadow */
+
+}
+
+.Card_overlap .oval {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.oval svg {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    padding: 7px;
+    background-color: #F0EFFB;
+    stroke-width: 2px;
+    stroke: #D9D6F5;
+    border-radius: 50%;
+    border: 2px solid #D9D6F5;
+}
+
+.Card_overlap .Text {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.Card_overlap .Text p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.Card-below-overlap {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    bottom: -2.6rem;
+    left: 3rem;
+    border-radius: 8px;
+    padding: 17px 16px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Card-below-overlap p {
+    font-size: 14px;
+
+}
+
+.circle {
+    width: 50px;
+    position: absolute;
+    top: -1rem;
+    right: 1rem;
+}
+
+.Card-below-overlap svg {
+    scale: 1.5;
+    padding: 5px;
+    background-color: #7065F0;
+    border-radius: 50%;
+    border: 1px solid #E0DEF7;
+}
+
+.text-content {
+    flex: 1;
+    /* Gives more space to text content */
+    padding: 20px;
+    /* Adds spacing around the text */
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+
+    /* Adjusts font size */
+}
+
+.text-content h2 {
+    max-width: 200px;
+    line-height: 140%;
+    /* 56px */
+    letter-spacing: -0.4px;
+}
+
+.text-content p {
+    max-width: 400px;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+.TenantsAndLandloard-content h1 {
+    width: 30rem;
+    color: #000929;
+    font-family: "Plus Jakarta Sans";
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 69.6px */
+    letter-spacing: -0.58px;
+}
+
+.make-your-maakan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 8rem;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    padding: 8px 7px;
+    cursor: pointer;
+    background-color: #F05E3A;
+    color: #FFFFFF;
+    /* border: none; */
+    border-radius: 6px;
+    font-weight: 600;
+    border: none;
+}

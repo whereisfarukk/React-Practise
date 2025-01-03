@@ -1,0 +1,62 @@
+.nav-wrapper {
+    background-color: rgba(255, 255, 255, 0.40);
+    backdrop-filter: blur(40px);
+    padding: 0.3rem 5rem;
+}
+
+.nav-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4.2rem;
+    color: #121544;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.logo div {
+    display: flex;
+}
+
+.logo ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2.8rem;
+    align-items: start;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.logo ul .menu-item {
+    color: black;
+    font-size: 15px;
+}
+
+.nav-content .make-your-maakan {
+    padding: 13px 7px;
+    cursor: pointer;
+    background-color: #F05E3A;
+    color: #FFFFFF;
+    /* border: none; */
+    border-radius: 6px;
+    font-weight: 700;
+    width: 14rem;
+}
+
+/* .nav-content ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    gap: 4rem;
+} */

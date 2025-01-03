@@ -1,0 +1,100 @@
+.hero-container {
+    background: linear-gradient(180deg, #F7EDE4 0%, rgba(247, 237, 228, 0.00) 100%);
+
+    color: black;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+
+}
+
+.hero-content {
+    margin-left: 7.4rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-top: 5rem;
+    position: relative;
+
+}
+
+.left-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+
+}
+
+.right-content {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.right-content img {
+    max-width: 500px;
+    margin-left: 30px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+.left-content .section1 {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.left-content .section2 {
+    width: 50%;
+    line-height: 160%;
+    letter-spacing: -0.1px;
+}
+
+.left-content .section3 {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.section3 .card-1 {
+    width: 13rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px 10px 0 0;
+}
+
+.section3 .card-2 {
+    width: 30rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-radius: 0 0 10px 10px;
+
+}
+
+.sub-card-3 button {
+    padding: 8px 7px;
+    cursor: pointer;
+    background-color: #F05E3A;
+    color: #FFFFFF;
+    /* border: none; */
+    border-radius: 6px;
+    font-weight: 600;
+}
