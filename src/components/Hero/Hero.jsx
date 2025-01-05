@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
-import home_img from "/assets/home_imgs.jpeg";
+import { FaCalendarAlt } from "react-icons/fa";
+import home_img from "/assets/home_img.png";
 function Hero() {
   return (
     <section className="hero-container">
@@ -18,8 +19,21 @@ function Hero() {
               <div className="sub-card-2">House & land</div>
             </div>
             <div className="card-2">
-              <div className="sub-card-1">Location</div>
-              <div className="sub-card-2">When</div>
+              <div className="sub-card-1">
+                <div> Location</div>
+                <h5> Enter Location</h5>
+              </div>
+              <div className="sub-card-2">
+                <div> When</div>
+                <h4>
+                  {" "}
+                  Select a Date{" "}
+                  <FaCalendarAlt
+                    className="calendar-icon"
+                    style={{ color: "#d2d1e3", marginLeft: "4px" }}
+                  />
+                </h4>
+              </div>
               <div className="sub-card-3">
                 <button>Make your makaan</button>
               </div>

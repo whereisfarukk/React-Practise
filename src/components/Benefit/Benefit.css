@@ -1,7 +1,10 @@
 .Benefit-container {
-    height: 100vh;
+    /* height: 100vh; */
     /* background-color: yellow; */
+    margin-top: 3rem;
     padding: 3rem 7rem;
+    min-height: 100vh;
+
 }
 
 .Benefit-content {

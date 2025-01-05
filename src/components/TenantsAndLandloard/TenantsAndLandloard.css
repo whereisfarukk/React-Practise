@@ -1,7 +1,9 @@
 .TenantsAndLandloard-container {
-    height: 110vh;
+    /* height: 110vh; */
     color: black;
     padding: 3rem 7rem;
+    min-height: 100vh;
+
 
 }
 
