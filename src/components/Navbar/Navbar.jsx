@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import logo_img from "/assets/logo.png";
 const Navbar = () => {
   return (
     <>
@@ -7,7 +8,7 @@ const Navbar = () => {
         <div className="nav-content">
           <a className="logo">
             <div>
-              <img src="/public/assets/logo.png"></img>
+              <img src={logo_img}></img>
               <h4> Maakan Builders</h4>
             </div>
             <ul>
