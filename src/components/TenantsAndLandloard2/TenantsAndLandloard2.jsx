@@ -1,5 +1,6 @@
 import React from "react";
 import "./TenantsAndLandloard2.css";
+import home_img from "/assets/home.png";
 export default function TenantsAndLandloard2() {
   return (
     <section className="TenantsAndLandloard-container2">
@@ -28,7 +29,7 @@ export default function TenantsAndLandloard2() {
           </div>
         </div>
         <div className="secondColumn">
-          <img src="/public/assets/home.png"></img>
+          <img src={home_img}></img>
         </div>
       </div>
     </section>

@@ -2,12 +2,13 @@ import React from "react";
 import NextPage from "../../icons/NextPage";
 import VideoIcon from "../../icons/VideoIcon";
 import Icon from "../../icons/Icon";
+import room_img from "/assets/room.png";
 export default function SecondRow() {
   return (
     <div>
       <div className="row-2">
         <div className="image">
-          <img src="/public/assets/room.png"></img>
+          <img src={room_img}></img>
           <div className="Card_overlap">
             <section className="oval">
               <VideoIcon />
