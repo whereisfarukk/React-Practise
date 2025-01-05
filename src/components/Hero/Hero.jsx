@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hero.css";
+import home_img from "/assets/home_imgs.jpeg";
 function Hero() {
   return (
     <section className="hero-container">
@@ -27,7 +28,7 @@ function Hero() {
           <div className="section4">Safe investments</div>
         </div>
         <div className="right-content">
-          <img src="/public/assets/home_imgs.jpeg"></img>
+          <img src={home_img}></img>
         </div>
       </div>
     </section>
