@@ -7,7 +7,7 @@ export default function SecondRow() {
     <div>
       <div className="row-2">
         <div className="image">
-          <img src="/src/assets/room.png"></img>
+          <img src="/public/assets/room.png"></img>
           <div className="Card_overlap">
             <section className="oval">
               <VideoIcon />

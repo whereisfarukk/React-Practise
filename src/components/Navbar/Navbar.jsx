@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="nav-content">
           <a className="logo">
             <div>
-              <img src="/src/assets/logo.png"></img>
+              <img src="/public/assets/logo.png"></img>
               <h4> Maakan Builders</h4>
             </div>
             <ul>

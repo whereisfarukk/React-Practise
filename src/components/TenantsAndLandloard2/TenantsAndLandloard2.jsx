@@ -28,7 +28,7 @@ export default function TenantsAndLandloard2() {
           </div>
         </div>
         <div className="secondColumn">
-          <img src="/src/assets/home.png"></img>
+          <img src="/public/assets/home.png"></img>
         </div>
       </div>
     </section>

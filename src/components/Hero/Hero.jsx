@@ -27,7 +27,7 @@ function Hero() {
           <div className="section4">Safe investments</div>
         </div>
         <div className="right-content">
-          <img src="/src/assets/home_imgs.jpeg"></img>
+          <img src="/public/assets/home_imgs.jpeg"></img>
         </div>
       </div>
     </section>
