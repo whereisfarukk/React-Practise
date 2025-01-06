@@ -1,12 +1,14 @@
 import React from "react";
 import "./Navbar.css";
 import logo_img from "/assets/logo.png";
+import { FaBars } from "react-icons/fa";
+
 const Navbar = () => {
   return (
     <>
       <nav className="nav-wrapper">
         <div className="nav-content">
-          <a className="logo">
+          <div className="logo">
             <div>
               <img src={logo_img}></img>
               <h4> Maakan Builders</h4>
@@ -29,7 +31,11 @@ const Navbar = () => {
                 <a className="menu-item">Investor Deals</a>
               </li>
             </ul>
-          </a>
+            {/* <div className="icon">
+              {" "}
+              <FaBars />
+            </div> */}
+          </div>
 
           <button className="make-your-maakan">Make your own makaaan</button>
         </div>

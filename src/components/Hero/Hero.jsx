@@ -2,6 +2,9 @@ import React from "react";
 import "./Hero.css";
 import { FaCalendarAlt } from "react-icons/fa";
 import home_img from "/assets/home_img.png";
+import profile_img from "/assets/Profile.jpeg";
+import Quote from "../icons/Quote";
+
 function Hero() {
   return (
     <section className="hero-container">
@@ -42,6 +45,39 @@ function Hero() {
           <div className="section4">Safe investments</div>
         </div>
         <div className="right-content">
+          <div className="card">
+            <div className="row-1">
+              <div className="col-1">
+                <img src={profile_img}></img>
+              </div>
+              <div className="col-2">
+                <h3>Manuel Villa</h3>
+                <p>Customer</p>
+                <p>Moved with</p>
+              </div>
+            </div>
+            <div className="row-2">
+              <div className="col-1">
+                <Quote />
+              </div>
+              <div className="col-2">
+                <p>
+                  I loved how smooth the move was, and finally got the house we
+                  wanted.
+                </p>
+              </div>
+            </div>
+            <div className="row-3">
+              <div className="col-1">
+                <h2>$1,500</h2>
+                <p>Saved up to</p>
+              </div>
+              <div className="col-1">
+                <h2>6 Month</h2>
+                <p>Process time</p>
+              </div>
+            </div>
+          </div>
           <img src={home_img}></img>
         </div>
       </div>
