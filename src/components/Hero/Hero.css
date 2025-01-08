@@ -334,6 +334,14 @@
         font-size: 13px;
     }
 
+    .card-1 .sub-card-1 {
+        font-size: 2.2vw;
+    }
+
+    .card-1 .sub-card-2 {
+        font-size: 2.2vw;
+    }
+
     /* .section3 .card-2 {
         width: 90%;
         flex-direction: row;
@@ -341,7 +349,8 @@
         font-size: 13px;
     } */
     .section3 .card-2 {
-        font-size: 13px;
+        font-size: 2.2vw;
+
         position: absolute;
         min-width: 82vw;
         display: flex;
@@ -355,8 +364,8 @@
     }
 
     .sub-card-3 button {
-        padding: 10px 20px;
-        font-size: 14px;
+        padding: 2vw 3vw;
+        font-size: 2.4vw;
     }
 
     .right-content {
