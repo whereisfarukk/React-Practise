@@ -10,6 +10,7 @@ const App = () => {
   return (
     <>
       <Navbar />
+
       <div className="container">
         <Hero />
         <Benefit />

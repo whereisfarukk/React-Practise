@@ -38,14 +38,14 @@
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    padding: 0rem 10rem;
+    padding: 0 20%;
     padding-top: 3rem;
     gap: 2rem;
     height: 100%;
 }
 
 .firstColumn-content h1 {
-    font-size: 34px;
+    font-size: clamp(34px, 2.5vw, 34px);
     font-weight: 700;
     line-height: 140%;
     letter-spacing: -0.4px;
@@ -60,20 +60,78 @@
 }
 
 .TenantsAndLandloard-content2 .secondColumn {
+    height: 100%;
     flex: 1;
-    /* Ensures equal width for both columns */
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    /* Prevents overflow from the image */
 }
 
 .TenantsAndLandloard-content2 .secondColumn img {
-    max-width: 100%;
-    /* Prevents the image from exceeding the column width */
     max-height: 100%;
-    /* Prevents the image from exceeding the column height */
     object-fit: contain;
-    /* Maintains the image's aspect ratio */
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .TenantsAndLandloard-container2 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .TenantsAndLandloard-content2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        padding: 0 1.5rem;
+    }
+
+    .TenantsAndLandloard-content2 .firstColumn {
+        width: 100%;
+        padding: 1.5rem 2rem;
+        color: white;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .firstColumn-content {
+        padding: 0;
+        gap: 1.5rem;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .firstColumn-content h1 {
+        font-size: 20px;
+        line-height: 130%;
+        letter-spacing: -0.3px;
+    }
+
+    .firstColumn-content p {
+        font-size: 14px;
+        line-height: 150%;
+        opacity: 0.8;
+    }
+
+    .firstColumn-content .make-your-maakan {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .TenantsAndLandloard-content2 .secondColumn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .TenantsAndLandloard-content2 .secondColumn img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
 }

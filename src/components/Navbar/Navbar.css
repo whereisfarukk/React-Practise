@@ -20,10 +20,14 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 3.6rem;
+    gap: 3rem;
     color: #121544;
     font-size: 23px;
     font-weight: 600;
+}
+
+.logo div {
+    cursor: pointer;
 }
 
 .logo img {
@@ -32,9 +36,10 @@
     object-fit: contain;
 }
 
-.logo .icon {
+nav .icon {
     display: none;
 }
+
 
 .logo div {
     display: flex;
@@ -44,7 +49,7 @@
     display: flex;
     flex-direction: row;
     list-style: none;
-    gap: 2.8rem;
+    gap: 2.2rem;
     align-items: start;
     font-size: 15px;
     font-weight: 400;
@@ -70,6 +75,10 @@
 
 }
 
+.icon svg {
+    display: none;
+}
+
 /* .nav-content ul {
     display: flex;
     flex-direction: row;
@@ -77,3 +86,97 @@
     justify-content: space-between;
     gap: 4rem;
 } */
+@media (max-width: 768px) {
+    .nav-wrapper {
+        padding: 0.5rem 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        width: 100%;
+        overflow: visible;
+        position: relative;
+        z-index: 100;
+
+
+    }
+
+    /* .navbar {
+        position: relative;
+        z-index: 10;
+    } */
+
+    .nav-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        overflow: visible;
+
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        /* background-color: red; */
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .logo div {
+        display: flex;
+        align-items: start;
+    }
+
+    /* .logo ul {
+        display: none;
+    } */
+    .logo .navlink {
+        position: absolute;
+        top: -300px;
+        right: 0px;
+        min-width: 10rem;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        align-items: start;
+        justify-content: space-between;
+        font-size: 15px;
+        font-weight: 600;
+        /* z-index: 5; */
+        background-color: rgb(255, 255, 255);
+        gap: 1rem;
+        padding: 0.9rem;
+        transition: all 0.5s;
+        border-bottom-left-radius: 8px;
+    }
+
+    .navlink.active {
+        top: 100%;
+        transition: all 0.5s ease-in;
+    }
+
+    .nav-content .make-your-maakan {
+        display: none;
+    }
+
+    /* .icon {
+        display: flex;
+        justify-content: flex-end;
+    } */
+
+    .logo .icon {
+        display: block;
+    }
+
+    .icon svg {
+        font-size: 1.5rem;
+        color: #121544;
+        display: block;
+    }
+
+
+}
