@@ -341,11 +341,9 @@
         font-size: 13px;
     } */
     .section3 .card-2 {
-        /* width: 50%; */
         font-size: 13px;
         position: absolute;
-        min-width: 30rem;
-        background-color: rgb(255, 255, 255);
+        min-width: 82vw;
         display: flex;
         align-items: center;
         justify-content: space-between;
