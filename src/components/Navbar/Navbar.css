@@ -113,6 +113,8 @@ nav .icon {
         align-items: center;
         width: 100%;
         overflow: visible;
+        margin-left: 0;
+        /* background-color: rgb(0, 0, 0); */
 
     }
 
@@ -123,11 +125,13 @@ nav .icon {
         /* background-color: red; */
         width: 100%;
         justify-content: space-between;
+        /* background-color: red; */
     }
 
     .logo div {
         display: flex;
         align-items: start;
+        /* background-color: rebeccapurple; */
     }
 
     /* .logo ul {
