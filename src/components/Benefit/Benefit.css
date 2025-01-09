@@ -80,10 +80,12 @@
 
 }
 
-/* .right .text .text-content {
-    background-color: red;
-    font-size: "1.23vw",
-} */
+.right .text p {
+    /* background-color: red; */
+    font-size: 1.23vw;
+    font-weight: 400;
+    line-height: 160%;
+}
 
 .text .circle {
     width: 47px;
@@ -176,14 +178,18 @@
 
     .right .text h4 {
         width: 100%;
-        font-size: 16px;
+        font-size: 3.3vw;
         justify-content: center;
         align-items: center;
         font-weight: 600;
     }
 
-    .right .text div {
+    .right .text p {
+        font-size: 3vw;
+    }
+
+    /* .right .text div {
         font-size: 14px;
         line-height: 150%;
-    }
+    } */
 }
