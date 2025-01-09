@@ -1,7 +1,7 @@
 .TenantsAndLandloard-container {
     /* height: 110vh; */
     color: black;
-    padding: 3rem 7rem;
+    padding: 3.53vw 8.23vw;
     min-height: 100vh;
 
 
@@ -10,14 +10,14 @@
 .TenantsAndLandloard-content {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.18vw;
 
 }
 
 .TenantsAndLandloard-content .row-1 {
     display: flex;
     flex-direction: row;
-    margin-bottom: 10px;
+    margin-bottom: 0.7353vw;
     /* background-color: #a6adc5; */
     align-items: center;
     justify-content: space-between;
@@ -56,13 +56,14 @@
     position: absolute;
     display: flex;
     flex-direction: row;
-    width: 300px;
-    height: 80px;
+    width: 23vw;
+    height: 6vw;
     background-color: white;
-    top: 3rem;
-    left: -4.5rem;
-    border-radius: 8px;
-    padding: 17px 16px;
+    top: 3.53vw;
+    left: -5.29vw;
+    border-radius: 0.59vw;
+    padding: 1.25vw 1.18vw;
+
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 
 }
@@ -101,10 +102,15 @@
 }
 
 .Card_overlap .Text p {
-    font-size: 14px;
+    font-size: 1.03vw;
     font-style: normal;
     font-weight: 400;
     line-height: 130%;
+
+}
+
+.Card_overlap .Text h4 {
+    font-size: 1.09vw;
 
 }
 
@@ -112,19 +118,21 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    gap: 4px;
-    width: 300px;
-    height: 80px;
+    gap: 0.29412vw;
+    width: 22.058vw;
+    height: 5.89vw;
     background-color: white;
-    bottom: -2.6rem;
-    left: 3rem;
-    border-radius: 8px;
-    padding: 17px 16px;
+    bottom: -3.06vw;
+    left: 3.53vw;
+
+    border-radius: 0.59vw;
+    padding: 1.25vw 1.18vw;
+
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .Card-below-overlap p {
-    font-size: 14px;
+    font-size: 1.03vw;
     color: var(--Greyscale-Grey-600, #4D5461);
 
 
@@ -133,19 +141,20 @@
 
 .Card-below-overlap h4 {
     color: var(--Main-Color-Secondary, #100A55);
-
+    font-size: 1.3vw;
 }
 
 .circle {
-    width: 50px;
+    width: 3.68vw;
     position: absolute;
-    top: -1rem;
-    right: 1rem;
+    top: -1.18vw;
+    right: 1.18vw;
+
 }
 
 .Card-below-overlap svg {
     scale: 1.5;
-    padding: 5px;
+    padding: 0.36765vw;
     background-color: #7065F0;
     border-radius: 50%;
     border: 1px solid #E0DEF7;

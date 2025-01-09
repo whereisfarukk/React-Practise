@@ -5,18 +5,18 @@ export default function Quote() {
     <div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="50"
-        height="50"
+        width="4vw"
+        height="4vw"
         viewBox="0 0 32 32"
         fill="none"
       >
-        <circle cx="16" cy="16" r="16" fill="#000929" />
+        <circle cx="16" cy="16" r="45%" fill="#000929" />
         {/* Adding the double apostrophe inside the circle */}
         <text
           x="50%"
           y="75%"
           textAnchor="middle"
-          fontSize="32"
+          fontSize="clamp(16px, 2vw, 32px)"
           fontWeight="bold"
           fill="white"
           dy=".3em"
