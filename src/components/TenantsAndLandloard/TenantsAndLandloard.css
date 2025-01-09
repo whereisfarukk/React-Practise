@@ -23,6 +23,10 @@
     justify-content: space-between;
 }
 
+.TenantsAndLandloard-content .row-1 h1 {
+    font-size: clamp(25px, 4vw, 64px);
+}
+
 .togglePage {
     display: flex;
     flex-direction: row;
@@ -222,6 +226,7 @@
     .TenantsAndLandloard-container {
         padding: 1.5rem;
         margin-top: 2rem;
+        min-height: auto;
     }
 
     .TenantsAndLandloard-content {
@@ -236,7 +241,8 @@
     }
 
     .TenantsAndLandloard-content h1 {
-        font-size: 32px;
+        /* font-size: 32px; */
+        font-size: 7vw;
         line-height: 130%;
         letter-spacing: -0.4px;
         width: auto;
@@ -351,6 +357,7 @@
     .text-content .make-your-maakan {
         width: 30%;
         justify-content: center;
-        padding: 5px;
+        padding: 1vw;
+        font-size: 3.3vw;
     }
 }

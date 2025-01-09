@@ -9,7 +9,6 @@ const BenefitCards = () => {
       <h4>A Legacy of Excellence</h4>
       <div
         style={{
-          fontSize: "16px",
           fontWeight: "400",
           lineHeight: "160%",
         }}
