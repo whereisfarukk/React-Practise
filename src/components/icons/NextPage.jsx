@@ -10,13 +10,13 @@ export default function NextPage({ style }) {
         viewBox="0 0 30 30"
         fill="none"
       >
-        <g clip-path="url(#clip0_16_169)">
+        <g clipPath="url(#clip0_16_169)">
           <path
             d="M11.1707 7.68262L18.4878 14.9997L11.1707 22.3168"
             stroke={style?.color || "black"}
-            stroke-width="2.43902"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="2.43902"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </g>
         <defs>

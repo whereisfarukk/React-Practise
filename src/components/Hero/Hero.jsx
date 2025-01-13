@@ -33,6 +33,7 @@ function Hero() {
                   Select a Date{" "}
                   <FaCalendarAlt
                     className="calendar-icon"
+                    aria-label="calendar"
                     style={{ color: "#d2d1e3", marginLeft: "4px" }}
                   />
                 </h4>
@@ -48,7 +49,7 @@ function Hero() {
           <div className="card">
             <div className="row-1">
               <div className="col-1">
-                <img src={profile_img}></img>
+                <img src={profile_img} alt="Profile Image"></img>
               </div>
               <div className="col-2">
                 <h3>Manuel Villa</h3>
@@ -78,7 +79,7 @@ function Hero() {
               </div>
             </div>
           </div>
-          <img src={home_img}></img>
+          <img src={home_img} alt="Home Image"></img>
         </div>
       </div>
     </section>

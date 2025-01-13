@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="nav-content">
           <div className="logo">
             <div>
-              <img src={logo_img}></img>
+              <img src={logo_img} alt="logo"></img>
               <h4> Maakan Builders</h4>
             </div>
             <ul className={isOpen ? "navlink active" : "navlink"}>
@@ -36,7 +36,7 @@ const Navbar = () => {
             </ul>
             <button className="make-your-maakan">Make your own makaaan</button>
 
-            <div className="icon" onClick={toggleMenu}>
+            <div className="icon" onClick={toggleMenu} aria-label="menu">
               {" "}
               <FaBars />
             </div>

@@ -10,11 +10,11 @@ export default function Icon({ primaryColor, secondaryColor, strokeColor }) {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g id="Icon" clip-path="url(#clip0_3_1258)">
+        <g id="Icon" clipPath="url(#clip0_3_1258)">
           <g id="Union">
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M2.66667 15.9998H5.62956V26.3702C5.62956 27.156 5.94173 27.9097 6.49739 28.4653C7.05305 29.021 7.80669 29.3332 8.59252 29.3332H23.4073C24.1932 29.3332 24.9468 29.021 25.5025 28.4653C26.0581 27.9097 26.3703 27.156 26.3703 26.3702V15.9998H26.3704H29.3333L16 2.6665L2.66667 15.9998Z"
               fill={primaryColor || "white"} //this should be purple
             />
@@ -27,9 +27,9 @@ export default function Icon({ primaryColor, secondaryColor, strokeColor }) {
             id="Vector"
             d="M12 18.0002L14.6667 20.6668L20 15.3335"
             stroke={secondaryColor || "#7065F0"} //this would be white
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </g>
         <defs>

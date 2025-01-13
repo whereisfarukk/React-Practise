@@ -10,13 +10,13 @@ export default function PreviousPage() {
         viewBox="0 0 30 30"
         fill="none"
       >
-        <g clip-path="url(#clip0_16_173)">
+        <g clipPath="url(#clip0_16_173)">
           <path
             d="M18.8537 7.68262L11.5366 14.9997L18.8537 22.3168"
             stroke="#6E6E6E"
-            stroke-width="2.43902"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="2.43902"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </g>
         <defs>
